@@ -1,0 +1,203 @@
+*{
+  margin:0;
+  padding:0;
+  color:#333;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+body{
+  padding-left:150px;
+  background:#eee;
+  background-image:url(images/background.jpg);
+}
+
+.top-tip{
+  background: #CDCDCD;
+  width: 150px;
+  padding: 20px;
+  float: right;
+  margin-left: 20px;
+}
+.top-tip h3{
+  margin-bottom:16px;
+}
+.top-tip p {
+  font-size:12px;
+  position:relative;
+  text-align:center;
+}
+
+.top-tip p:before{
+  font-family: 'Droid Serif', serif;
+  content:open-quote;
+  font-size:40px;
+  line-height:0px;
+  position:absolute;
+  top:10px;
+  left:0px;
+}
+
+.top-tip p:after{
+  font-family: 'Droid Serif', serif;
+  content:close-quote;
+  font-size:40px;
+  line-height:20px;
+  position:absolute;
+  bottom:-5px;
+  right:0px;
+}
+
+aside{
+  background-color:white;
+  position:fixed;
+  top:20px;
+  left:0px;
+  width:90px;
+  padding:20px;
+  border: 2px solid green;
+  border-left:0px;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+img.logo{
+  margin:20px auto;
+  display:block;
+}
+
+article{
+  position:relative;
+  z-index:10;
+  max-width:520px;
+  margin:20px auto;
+  background:#f8f8f8;
+  border-radius:5px;
+  border: 2px solid green;
+  padding-bottom:20px;
+}
+
+header{
+  padding: 20px;
+}
+
+header h3{
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+header h1{
+  margin-bottom:16px;
+}
+
+header img{
+  margin:0;
+  margin-bottom:20px;
+}
+
+a.tel{
+  font-size: 24px;
+  color:green;
+  text-decoration: none;
+  vertical-align: middle;
+
+}
+
+blockquote{
+  font-style: italic;
+  background:#ccc;
+  color:white;
+  font-size:14px;
+  padding:20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+span.reference{
+  font-style:normal;
+  font-size:16px;
+  color: black;
+  font-weight: bold;
+  display:block;
+  text-align:right;
+  margin-top:8px;
+}
+
+section{
+  padding:20px;
+}
+
+ul{
+  padding:0;
+  padding-left:32px;
+  padding-bottom:20px;
+  margin-bottom:20px;
+  border-bottom:1px solid #333;
+
+}
+li{
+  list-style-image:url('images/shovel.jpg');
+  margin-bottom:8px;
+  font-family: 'Droid Serif', serif;
+  margin-top:-4px;
+}
+
+h2{
+  font-size:24px;
+  margin-bottom:16px;
+  text-transform:uppercase;
+  letter-spacing:-1px;
+}
+img{
+  margin-left:20px;
+  margin-right:20px;
+}
+p{
+  font-size:16px;
+  line-height:21px;
+  margin-bottom:8px;
+  font-family: 'Droid Serif', serif;
+}
+
+p.getintouch{
+  font-weight:bold;
+  font-style:italic;
+}
+
+.credits{
+  font-size:12px;
+  padding:20px;
+  padding-bottom:0;
+  line-height:12px;
+}
+.credits a{
+  font-weight:bold;
+  color:#333;
+  text-decoration:none;
+}
+.credits a:hover{
+  color:black;
+}
+@media all and (max-width: 520px){
+  body{
+    padding-left:0;
+  }
+  article{
+    margin:0 auto;
+    border-radius:0;
+    border:0;
+  }
+  img{
+    width: 100%;
+    margin: 0;
+  }
+  aside{
+    position:relative;
+    width:auto;
+    border-radius:0;
+    border:0;
+    top:0;
+    left:0;
+    border-bottom:2px solid green;
+  }
+}
+
