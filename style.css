@@ -28,7 +28,6 @@ body{
 }
 
 .top-tip p:before{
-  font-family: 'Droid Serif', serif;
   content:open-quote;
   font-size:40px;
   line-height:0px;
@@ -38,7 +37,6 @@ body{
 }
 
 .top-tip p:after{
-  font-family: 'Droid Serif', serif;
   content:close-quote;
   font-size:40px;
   line-height:20px;
@@ -136,8 +134,8 @@ ul{
 }
 li{
   list-style-image:url('images/shovel.jpg');
-  margin-bottom:8px;
-  font-family: 'Droid Serif', serif;
+  margin-bottom:8px;/*
+  font-family: 'Droid Serif', serif;*/
   margin-top:-4px;
 }
 
@@ -154,8 +152,8 @@ img{
 p{
   font-size:16px;
   line-height:21px;
-  margin-bottom:8px;
-  font-family: 'Droid Serif', serif;
+  margin-bottom:8px;/*
+  font-family: 'Droid Serif', serif;*/
 }
 
 p.getintouch{
