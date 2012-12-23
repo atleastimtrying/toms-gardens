@@ -60,6 +60,9 @@ aside{
   border-top-right-radius:5px;
   border-bottom-right-radius:5px;
 }
+aside h3{
+  font-weight:normal;
+}
 
 img.logo{
   margin:20px auto;
@@ -100,8 +103,8 @@ a.tel{
   font-size: 24px;
   color:green;
   text-decoration: none;
-  vertical-align: middle;
-
+  display:block;
+  margin-top:10px;
 }
 
 blockquote{
