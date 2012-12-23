@@ -6,9 +6,9 @@
 }
 
 body{
-  padding-left:150px;
+  padding-left:130px;
   background:#eee;
-  background-image:url(images/background.jpg);
+  background-image:url(images/background.png);
 }
 
 .top-tip{
@@ -54,11 +54,12 @@ aside{
   top:20px;
   left:0px;
   width:90px;
-  padding:20px;
+  padding:10px;
   border: 2px solid green;
   border-left:0px;
-  border-top-right-radius:5px;
-  border-bottom-right-radius:5px;
+  border-top-right-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow:4px 4px 4px rgba(0,0,0,0.3);
 }
 aside h3{
   font-weight:normal;
@@ -75,10 +76,11 @@ article{
   z-index:10;
   max-width:520px;
   margin:20px auto;
-  background:#f8f8f8;
-  border-radius:5px;
+  background:#DFE6D7;
+  border-radius:8px;
   border: 2px solid green;
   padding-bottom:20px;
+  box-shadow:4px 4px 4px rgba(0,0,0,0.3);
 }
 
 header{
@@ -155,7 +157,8 @@ h2{
 img{
   margin-left:20px;
   margin-right:20px;
-  border-radius: 5px;
+  border: 2px solid green;
+  border-radius: 0;
 }
 p{
   font-size:16px;
@@ -195,7 +198,7 @@ p.getintouch{
   img{
     width: 100%;
     margin: 0;
-    border-radius: 0;
+    border:0;
   }
   aside{
     position:relative;
