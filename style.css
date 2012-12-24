@@ -17,6 +17,7 @@ body{
   padding: 20px;
   float: right;
   margin-left: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 .top-tip h3{
@@ -186,7 +187,7 @@ p.getintouch{
 .credits a:hover{
   color:black;
 }
-@media all and (max-width: 520px){
+@media all and (max-width: 650px){
   body{
     padding-left:0;
   }
